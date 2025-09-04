@@ -100,7 +100,21 @@ ALL models show same pattern:
 
 ---
 
-## September 4, 2025 - Afternoon Update
+## September 4, 2025 - Update
+
+### CRITICAL REVISION: Nonsense Word Experiments
+
+**Hypothesis**: Models are pure syntax machines
+**Result**: CONTRADICTED!
+
+Nonsense word tests showed:
+- Normal: 83.7% confidence
+- Nonsense objects (gribble/florp): 14.7% confidence (82% drop!)
+- Nonsense predicates (xyzqed): 22.6% confidence (73% drop)
+
+**Conclusion**: Models are **syntax-guided lexical associators**, not pure syntax machines. They need BOTH grammatical structure AND familiar lexical items.
+
+## September 4, 2025 - Update
 
 ### CONFIRMED: Function Words > Content Words
 
