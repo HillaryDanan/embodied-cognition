@@ -100,7 +100,7 @@ ALL models show same pattern:
 
 ---
 
-## September 4, 2025 - Update
+## September 4, 2025 - Continued
 
 ### CRITICAL REVISION: Nonsense Word Experiments
 
@@ -114,7 +114,15 @@ Nonsense word tests showed:
 
 **Conclusion**: Models are **syntax-guided lexical associators**, not pure syntax machines. They need BOTH grammatical structure AND familiar lexical items.
 
-## September 4, 2025 - Update
+### MAJOR DISCOVERY: Complete Temporal-Causal Collapse
+
+**Finding**: BERT defaults to punctuation for ALL causal completions
+- Normal causation: 91.5-98.4% punctuation
+- Reverse causation: 74.2-88.6% punctuation  
+- Circular causation: 86.5-91.3% punctuation
+- Temporal paradox: 96.8-97.8% punctuation
+
+**Interpretation**: Models have ZERO causal reasoning. They treat causal connectives as sentence-ending signals, not semantic relationships.
 
 ### Investigation Results
 
