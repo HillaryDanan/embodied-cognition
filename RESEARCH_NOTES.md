@@ -100,13 +100,41 @@ ALL models show same pattern:
 
 ---
 
+## September 4, 2025 - Afternoon Update
+
+### CONFIRMED: Function Words > Content Words
+
+**Exploit Position Results:**
+- Object-focused prompts: 2.6-6% confidence (FAILED)
+- Predicate-focused prompts: 15.6-61.9% confidence (MODERATE)
+- Function-word prompts: 51.9-97.1% confidence (SUCCESS!)
+
+**Chain-of-Thought Discovery:**
+- Direct answers: 1 verb, 2 nouns
+- CoT answers: 7 verbs, 11 nouns (7x verb increase!)
+- **CoT works by forcing predicate generation**
+
+### Cross-Domain Analysis
+
+| Domain | Best Predicted | Worst Predicted |
+|--------|---------------|-----------------|
+| Physics | "down" (0), "the" (0) | "ball" (32) |
+| Social | "with" (0), "her" (0) | "homework" (11,988!) |
+| Math | "plus" (0) | "exactly" (64) |
+| Causal | "caused" (0), "in" (0) | "valley" (15) |
+
+**Pattern**: Determiners (0) > Prepositions (0) > Operators (0) > Verbs (12.5) > Numbers (7) > Locations (15) > Objects (6010!)
+
 ## TODO
 
-- [ ] Test social knowledge position (who did what to whom)
-- [ ] Test mathematical knowledge position  
-- [ ] Test causal knowledge position
-- [ ] Design intervention to teach object-level physics
+- [x] Test social knowledge position (who did what to whom)
+- [x] Test mathematical knowledge position  
+- [x] Test causal knowledge position
+- [x] Design intervention to teach object-level physics
 - [ ] Test if fine-tuning can move knowledge location
+- [ ] Generate training data for object-centric physics
+- [ ] Test on larger models (GPT-4, Claude-3 Opus)
+- [ ] Write paper on positional encoding discovery
 
 ---
 
