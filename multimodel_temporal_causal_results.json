@@ -1,0 +1,43 @@
+{
+  "models": {
+    "bert-base-uncased": {
+      "temporal_acc": 0.0,
+      "causal_acc": 0.0,
+      "temporal_punct": 1.0,
+      "causal_punct": 1.0,
+      "temporal_avg_rank": 183.6,
+      "causal_avg_rank": 285.2
+    },
+    "roberta-base": {
+      "temporal_acc": 0.8,
+      "causal_acc": 0.2,
+      "temporal_punct": 0.2,
+      "causal_punct": 0.0,
+      "temporal_avg_rank": 2843.0,
+      "causal_avg_rank": 15788.6
+    },
+    "albert-base-v2": {
+      "temporal_acc": 0.0,
+      "causal_acc": 0.0,
+      "temporal_punct": 0.2,
+      "causal_punct": 0.8,
+      "temporal_avg_rank": 4160.0,
+      "causal_avg_rank": 2731.0
+    },
+    "distilbert-base-uncased": {
+      "temporal_acc": 0.4,
+      "causal_acc": 0.0,
+      "temporal_punct": 0.4,
+      "causal_punct": 0.6,
+      "temporal_avg_rank": 14.8,
+      "causal_avg_rank": 50.4
+    }
+  },
+  "summary": {
+    "mean_temporal_acc": 0.30000000000000004,
+    "mean_causal_acc": 0.05,
+    "mean_temporal_punct": 0.44999999999999996,
+    "mean_causal_punct": 0.6,
+    "all_fail": false
+  }
+}

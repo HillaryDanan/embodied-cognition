@@ -1,0 +1,11 @@
+{
+  "model": "bert-base-uncased",
+  "temporal_accuracy": 0.0,
+  "causal_accuracy": 0.0,
+  "temporal_punct_rate": 1.0,
+  "causal_punct_rate": 1.0,
+  "temporal_avg_rank": 791.9,
+  "causal_avg_rank": 894.4,
+  "spearman_correlation": 0.13939393939393938,
+  "correlation_p": 0.7009318849100584
+}
