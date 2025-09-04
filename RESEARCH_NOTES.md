@@ -116,6 +116,38 @@ Nonsense word tests showed:
 
 ## September 4, 2025 - Update
 
+### Investigation Results
+
+#### 1. Frequency Effects (CONFIRMED)
+- **r = -0.505, p = 0.023** - frequency strongly predicts prediction success
+- High-freq words ~80 rank vs low-freq ~6,395 rank
+- Explains positional patterns partially
+
+#### 2. Cross-Linguistic Patterns
+- German: 75% confidence (compound-friendly language)
+- English: 37.5% confidence
+- Spanish: 14.7% confidence
+- **Universal but language-dependent strength**
+
+#### 3. Object-Privileged Prompts (BREAKTHROUGH!)
+Found two patterns that achieve rank 0 for objects:
+- **Compound pattern**: "rock-solid, rock-hard, [MASK]-heavy" → 95.6% confidence!
+- **Definition frame**: "A [MASK] is a hard mineral object" → 14.9% confidence
+- Context can completely override positional bias
+
+#### 4. Attention Patterns
+- Function words: 1.816 entropy (slightly more distributed)
+- Content words: 1.586 entropy
+- Difference exists but is modest (14%)
+
+### Synthesis
+
+**The Real Model**: LLMs are frequency-weighted, position-biased, context-sensitive pattern matchers. Not pure syntax, not pure semantics, but a complex interaction of:
+1. Word frequency (25% of variance)
+2. Syntactic position (massive effect)
+3. Contextual framing (can override everything)
+4. Language-specific patterns
+
 ### CONFIRMED: Function Words > Content Words
 
 **Exploit Position Results:**
